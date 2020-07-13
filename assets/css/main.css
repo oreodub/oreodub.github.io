@@ -2559,7 +2559,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 20%;
 		}
 
 			.features li:nth-child(1) {
@@ -3636,6 +3636,12 @@ input, select, textarea {
 			#banner p a {
 				color: inherit;
 			}
+
+		#banner img {
+			border-radius: 50%;
+			height: 300px;
+			width: 300px;
+		}
 
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
